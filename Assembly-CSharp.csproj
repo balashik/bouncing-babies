@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{B00485C7-3CC4-7FEA-74FF-017D3F2791E2}</ProjectGuid>
+	<ProjectGuid>{F88761AA-9E72-8F31-5F36-4BC49F3A34AF}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -50,7 +50,7 @@
      <Compile Include="Assets\scripts\BabyControl.cs" />
      <Compile Include="Assets\scripts\FiremenControl.cs" />
      <Compile Include="Assets\scripts\GameManager.cs" />
-     <Compile Include="Assets\scripts\TrukControl.cs" />
+     <Compile Include="Assets\scripts\TruckControl.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity5Free/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

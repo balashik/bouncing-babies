@@ -17,7 +17,7 @@ public class GameManager : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		scoreText.text = (truk.GetComponent<TrukControl> ().getBabyCount ()*10).ToString();
+		scoreText.text = (truk.GetComponent<TruckControl> ().getBabyCount ()*10).ToString();
 		//StartCoroutine (waitTime ());
 		if (WaitingTimeEnded == true) {
 			createBaby();
